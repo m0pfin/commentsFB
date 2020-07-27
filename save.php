@@ -11,9 +11,9 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
-include("includes/connect.php");
-include("includes/db.php");
-include("function/getInfo.php");
+include __DIR__ . '/includes/connect.php';
+include __DIR__ . '/includes/db.php';
+include __DIR__ . '/function/getInfo.php';
 
 
 $cat = $_POST['cat'];
