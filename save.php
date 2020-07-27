@@ -5,17 +5,15 @@
  * Date: 26.07.2020
  * Time: 04:39
  */
+ ob_start();
 
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
-
-
 include("includes/connect.php");
 include("includes/db.php");
 include("function/getInfo.php");
-include("function/getStatusToken.php");
 
 
 $cat = $_POST['cat'];
