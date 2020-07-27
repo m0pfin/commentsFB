@@ -5,4 +5,3 @@ $config = require 'config.php';
 		mysqli_select_db($link, $config['db_name']);
 		mysqli_query($link, "SET CHARACTER SET utf8");
 		?>
-		
