@@ -11,9 +11,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
 
-include '../includes/db.php';
-include '../includes/connect.php';
-include '../function/getInfo.php';
+include __DIR__ . '/../includes/db.php';
+include __DIR__ . '/../includes/connect.php';
+include __DIR__ . '/../function/getInfo.php';
 
 if(isset($_GET['reload_author'])){
     //
